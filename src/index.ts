@@ -2,7 +2,29 @@ import express from "express";
 import mongoose from "mongoose";
 import jwt from "jsonwebtoken"
 
-jwt.generate()
 const app = express();
 
-app.get
+app.post("/api/v1/signUp",(req,res)=>{
+
+})
+
+app.post("/api/v1/signIn",(req,res)=>{
+    
+})
+app.post("/api/v1/content",(req,res)=>{
+    
+})
+app.get("/api/v1/content",(req,res)=>{
+    
+})
+
+app.delete("/api/v1/content",(req,res)=>{
+
+})
+app.post("/api/v1/brain/share",(req,res)=>{
+    
+})
+
+app.get("api/v1/brain/:shareLink",(req,res)=>{
+    
+})
